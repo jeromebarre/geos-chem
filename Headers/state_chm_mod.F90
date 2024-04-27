@@ -284,10 +284,10 @@ MODULE State_Chm_Mod
      !-----------------------------------------------------------------------
 #if defined( MODEL_GEOS )
      ! CO mesosphere boundary
-     INTEGER            :: COmesosphere 
+     LOGICAL            :: COmesosphere 
      CHARACTER(LEN=255) :: impCOmeso
      ! CO2 photolysis
-     INTEGER            :: CO2fromGOCART
+     LOGICAL            :: CO2fromGOCART
      CHARACTER(LEN=255) :: impCO2name
      INTEGER            :: numphoto
      INTEGER            :: nxdo

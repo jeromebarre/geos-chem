@@ -78,7 +78,7 @@ MODULE GEOS_Analysis
      CHARACTER(LEN=63)            :: FileVarUnit
      INTEGER                      :: DryFlag 
      LOGICAL                      :: IsIncrement 
-     INTEGER                      :: IAU
+     LOGICAL                      :: IAU
      INTEGER                      :: AnalysisWindow
      LOGICAL                      :: HasMask
      CHARACTER(LEN=127)           :: MskNameHco

@@ -309,7 +309,7 @@ CONTAINS
 ! LOCAL VARIABLES:
 !
     INTEGER, PARAMETER           :: NRATS = 5
-    CHARACTER(LEN=15), PARAMETER :: RatsNames(NRATS) = (/ 'CH4', 'N2O', 'CFC11', 'CFC12', 'HCFC22' /)
+    CHARACTER(LEN=15), PARAMETER :: RatsNames(NRATS) = (/ 'CH4   ', 'N2O   ', 'CFC11 ', 'CFC12 ', 'HCFC22' /)
     REAL, PARAMETER              :: OMW = 16.0
     ! 
     INTEGER                      :: I, LM, IndSpc, IndO3

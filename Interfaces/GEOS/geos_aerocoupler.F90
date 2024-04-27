@@ -831,7 +831,7 @@ CONTAINS
     REAL, POINTER                :: AeroPtr3d(:,:,:) => NULL()
 
     INTEGER, PARAMETER           :: NRATS = 5
-    CHARACTER(LEN=15), PARAMETER :: RatsNames(NRATS) = (/ 'CH4', 'N2O', 'CFC11', 'CFC12', 'HCFC22' /)
+    CHARACTER(LEN=15), PARAMETER :: RatsNames(NRATS) = (/ 'CH4   ', 'N2O   ', 'CFC11 ', 'CFC12 ', 'HCFC22' /)
 
     __Iam__('GEOS_FillAeroBundle')
 
